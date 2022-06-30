@@ -1,0 +1,15 @@
+<RCC>
+    <qresource prefix="/myImages">
+        <file>images/ataxx_blue.png</file>
+        <file>images/black_chart.png</file>
+        <file>images/black_normal.png</file>
+        <file>images/black_selected.png</file>
+        <file>images/board.png</file>
+        <file>images/white_chart.png</file>
+        <file>images/white_normal.png</file>
+        <file>images/white_selected.png</file>
+        <file>images/white_chart_r.png</file>
+        <file>images/space_blue.png</file>
+        <file>images/space_green.png</file>
+    </qresource>
+</RCC>

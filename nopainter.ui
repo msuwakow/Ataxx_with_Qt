@@ -1,0 +1,297 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>nopainter</class>
+ <widget class="QWidget" name="nopainter">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>600</width>
+    <height>800</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <widget class="QGraphicsView" name="board">
+   <property name="geometry">
+    <rect>
+     <x>55</x>
+     <y>150</y>
+     <width>520</width>
+     <height>520</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">border-image: url(:/myImages/images/board.png);</string>
+   </property>
+  </widget>
+  <widget class="QGraphicsView" name="blackChart">
+   <property name="geometry">
+    <rect>
+     <x>30</x>
+     <y>20</y>
+     <width>190</width>
+     <height>80</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">border-image: url(:/myImages/images/black_chart.png);</string>
+   </property>
+  </widget>
+  <widget class="QGraphicsView" name="whiteChart">
+   <property name="geometry">
+    <rect>
+     <x>380</x>
+     <y>20</y>
+     <width>190</width>
+     <height>80</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">border-image: url(:/myImages/images/white_chart_r.png);</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="number">
+   <property name="geometry">
+    <rect>
+     <x>90</x>
+     <y>120</y>
+     <width>491</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>16</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>1       2       3       4       5       6       7</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="A">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>180</y>
+     <width>21</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>16</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>A</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="B">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>250</y>
+     <width>21</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>16</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>B</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="C">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>330</y>
+     <width>21</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>16</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>C</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="D">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>400</y>
+     <width>21</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>16</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>D</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="E">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>470</y>
+     <width>21</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>16</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>E</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="F">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>550</y>
+     <width>21</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>16</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>F</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="G">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>620</y>
+     <width>21</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>16</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>G</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="blackScore">
+   <property name="geometry">
+    <rect>
+     <x>59</x>
+     <y>19</y>
+     <width>131</width>
+     <height>81</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>20</pointsize>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color: rgb(235, 235, 235);</string>
+   </property>
+   <property name="text">
+    <string>01</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="whiteScore">
+   <property name="geometry">
+    <rect>
+     <x>504</x>
+     <y>19</y>
+     <width>131</width>
+     <height>81</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>20</pointsize>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color: rgb(20, 20, 20);</string>
+   </property>
+   <property name="text">
+    <string>01</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="regrets">
+   <property name="geometry">
+    <rect>
+     <x>210</x>
+     <y>30</y>
+     <width>69</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QGraphicsView" name="leftup">
+   <property name="geometry">
+    <rect>
+     <x>66</x>
+     <y>163</y>
+     <width>60</width>
+     <height>60</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">border-image: url(:/myImages/images/black_normal.png);</string>
+   </property>
+  </widget>
+  <widget class="QGraphicsView" name="rightdown">
+   <property name="geometry">
+    <rect>
+     <x>503</x>
+     <y>598</y>
+     <width>60</width>
+     <height>60</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">border-image: url(:/myImages/images/white_selected.png);</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="tips">
+   <property name="geometry">
+    <rect>
+     <x>70</x>
+     <y>680</y>
+     <width>533</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>请用键盘输入形如 “Ax By” 的字符串，从而将你的棋子从 Ax 移动到 By，
+如 “C2 D3”。回到主菜单请按 “ZZ”，悔棋请按 “RR”。</string>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
